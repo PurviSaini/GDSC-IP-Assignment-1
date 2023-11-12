@@ -1,4 +1,6 @@
 // Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
+#include <bits/stdc++.h>
+using namespace std;
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
 
       if(intervals.size()==1)
